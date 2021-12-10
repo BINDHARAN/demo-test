@@ -1,0 +1,30 @@
+.float {
+  padding: 30px;
+  background-color: #2c363f;
+  color: #fff;
+  overflow: auto;
+  text-align: justify;
+}
+
+.float>img {
+  float: left;
+  width: 200px;
+  padding: 10px;
+  margin-right: 30px;
+  background-color: #ff5722;
+  
+}
+
+.opacity {
+  width: 850px;
+  background-color: black;
+}
+
+.opacity > img {
+  width: 850px;
+  opacity: 1;
+}
+
+.opacity > img:hover {
+  opacity: 0.5;
+}
